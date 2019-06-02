@@ -1,0 +1,3 @@
+- coupon_prediction.ipynb 是操作的具体文件
+- 后续有模块化.py文件
+- indexs_FeatureName.csv 存储操作过程中对于特征处理产生的indexs

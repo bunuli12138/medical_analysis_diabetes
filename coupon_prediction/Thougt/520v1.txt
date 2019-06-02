@@ -1,0 +1,24 @@
+1.整理特征（包括训练集）-> (new)data_df, data_df_new
+	1.discount整理为2列：折数（float）、使用门槛（int/0），为空则没有优惠券设为1.0， 0
+	2.distance （float->int）
+	3.receive日期整理为has_holidays（往后15天内是否法定节假日）、is_holiday（当天是否是节假日或周末），为空则False，False
+	4.label为空则设为False
+2.整理空值：
+    distance-> dicount ->received ->date
+    1.整理全部不为空的为子集 not_null_set
+    2.决策树分别预测生成逐步完善的数据集
+3.决策树训练，并导出模型，记录结果
+	1.2个方法，一个训练指定特征值，一个预测指定特征值
+4.训练
+	1.查看空值数量，如果较多重复过程2
+	2. 决策树训练
+5.测试集
+	1.拆分
+	2.转换
+	3.预测	
+- 可以尝试随机森林
+
+- 结果0.58，差
+改进分类：
+	1.Discount为空时，可能是没有
+	

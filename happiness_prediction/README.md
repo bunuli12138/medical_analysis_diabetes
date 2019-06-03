@@ -15,14 +15,15 @@
 | *_complete | 变量完整版数据 |   
 | *_abbr | 变量精简版数据 |  
 
-提交格式：
+提交格式：   
+
 | id | happiness |  
-| --- | --- |  
+| --- | --- | 
 
-分数公式：$score = \frac{1}{n}\sum_{1}^{n}(y_i-y^*)^2$
+分数公式： $score = \frac{1}{n}\sum_1^n(y_i-y^*)^2$   
 
 
-## 命名规则
+## 命名规则  
 X/Y/train/test_Class_Description 或 Class_Description   
 含义：     
 - X：特征数据集，Y：标签，train：训练集，test：测试集  

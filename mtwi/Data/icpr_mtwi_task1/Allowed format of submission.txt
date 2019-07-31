@@ -1,0 +1,5 @@
+Just submit a <.zip> file, only one folder in the zip file, which includes only one <.txt> test result file.
+Each row in the txt file represents the recognition result of an test image. The image name and the recognition result are separated by spaces.
+The character needs to be encoded in UTF-8.
+sample_task1.zip is the sample of submission file for Taks 1.
+You have to send results of standard format, otherwise, your results will not be evaluated.
